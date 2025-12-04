@@ -1,0 +1,1 @@
+Es posible un error en vuelco de datos de 'Flights with Companions' debido a que las reservas no coinciden con los vuelos realizads por el cliente en un número bastante alto. Se solicita a la compañía que actualice la información. Mientras tanto se ha optado por la inclusión de una nueva columna denominada 'Total Flights'
