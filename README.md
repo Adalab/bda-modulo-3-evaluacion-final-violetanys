@@ -35,11 +35,10 @@ Se confirma una relación positiva entre el nivel educativo y el salario promedi
 
 ![Distribución del Salario por Nivel Educativo](visualizaciones/salario_educacion.png)
 
-### 2. Distribución Geográfica
+### 2. Distribución vielos por mes
 
-La base de clientes está altamente concentrada en las provincias de Ontario, British Columbia y Quebec, lo cual se ve reflejado en el conteo de clientes:
-
-![Gráfico de Distribución por Provincia](visualizaciones/distribucion_prov.png)
+Se puede ver de forma muy clara que los meses de 'Vacaciones' son los meses con más vuelos
+![Distribucion de vuelos por mes](visualizaciones/distribucion_mensual.png)
 
 ### 3. Matriz de Correlación
 
