@@ -9,15 +9,6 @@ Este repositorio contiene el análisis exploratorio de datos (EDA) y la limpieza
 -> Evaluar el Programa de Lealtad: Analizar la relación entre la actividad de vuelo y la acumulación de puntos.
 -> Preparación de Datos: Crear un conjunto de datos limpio (datos_limpios.csv) listo para el modelado del Valor de Vida del Cliente (CLV).
 
-## 🛠️ Estructura y Herramientas
-Estructura del Repositorio
-.
-├── src/
-│   └── soporte_correlacion.py    # Funciones customizadas para cálculo y visualización de correlaciones.
-├── notebook_principal.ipynb      # Notebook con el proceso completo de limpieza y análisis.
-├── union.csv                     # Conjunto de datos original.
-└── datos_limpios.csv             # Conjunto de datos resultante tras la limpieza y el EDA.
-└── README.md
 ## Herramientas y Dependencias
 El proyecto se desarrolla en Python 3.13.7  
 ## Librerías:
@@ -42,13 +33,13 @@ Consistencia de Datos: Se estandarizaron o verificaron otras columnas como fecha
 
 Se confirma una relación positiva entre el nivel educativo y el salario promedio. Los clientes con niveles 'Master' y 'Doctor' tienen los salarios medios más altos. Esto se visualiza claramente en la distribución del salario:
 
-![Distribución del Salario por Nivel Educativo](visualizaciones/salario_por_educacion.png)
+![Distribución del Salario por Nivel Educativo](visualizaciones/salario_educacion.png)
 
 ### 2. Distribución Geográfica
 
 La base de clientes está altamente concentrada en las provincias de Ontario, British Columbia y Quebec, lo cual se ve reflejado en el conteo de clientes:
 
-![Gráfico de Distribución por Provincia](visualizaciones/distribucion_provincias.png)
+![Gráfico de Distribución por Provincia](visualizaciones/distribucion_prov.png)
 
 ### 3. Matriz de Correlación
 
